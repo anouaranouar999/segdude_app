@@ -1,0 +1,965 @@
+{
+  "@@locale": "en",
+  "appTitle": "Lkout",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "login": "Login",
+  "email": "Email",
+  "password": "Password",
+  "signIn": "Sign In",
+  "signUp": "Sign Up",
+  "@signUp": {},
+  "signOut": "Sign Out",
+  "error": "Error",
+  "welcome": "Welcome",
+  "timetable": "timetable",
+  "@timetable": {
+    "description": "timetable page"
+  },
+  "timetableCreate": "Create timetable",
+  "@timetableCreate": {
+    "description": "timetable create page"
+  },
+  "timetableResult": "timetable Result",
+  "@timetableResult": {
+    "description": "timetable result page"
+  },
+  "fieldRequired": "Required",
+  "mustBePositive": "Must be ≥ 1",
+  "idAlreadyUsed": "ID already in use",
+  "minTwoChars": "Min. 2 characters",
+  "invalidHoursFormat": "Format: levelId:hours — e.g. 1:6,2:4",
+  "levelsRequired": "Enter at least one level — e.g. 1,2",
+  "invalidFormat": "Invalid format — e.g. 1,2",
+  "slotRange": "Slot must be between 1 and 24",
+  "slotAlreadyUsed": "Slot already defined as a break",
+  "dayRange": "Day must be between 1 and 7",
+  "minTwo": "Must be ≥ 2",
+  "selectASubject": "Select a subject",
+  "searchTeacherHint": "Search teacher...",
+  "noTeachersForSubject": "No teachers for this subject",
+  "addRooms": "Add Rooms",
+  "addSubject": "Add Subject",
+  "editTeacher": "Edit Teacher",
+  "teacherUpdatedSuccessfully": "{name} updated successfully",
+  "@teacherUpdatedSuccessfully": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noTeacherScheduleAvailable": "No teacher schedule available",
+  "teacherNumberFallback": "Teacher {id}",
+  "@teacherNumberFallback": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "dayNumberFallback": "Day {id}",
+  "@dayNumberFallback": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "subjectNumberFallback": "Subject {id}",
+  "@subjectNumberFallback": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "classNumberFallback": "Class {id}",
+  "@classNumberFallback": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "roomNumberFallback": "Room {id}",
+  "@roomNumberFallback": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "editSubject": "Edit Subject",
+  "editRoom": "Edit Room",
+  "save": "Save",
+  "addTeacher": "Add Teacher",
+  "addABreakHour": "Add a break hour",
+  "addEdit": "Add/Edit",
+  "allDataCleared": "All data cleared!",
+  "awesome": "Awesome",
+  "cancel": "Cancel",
+  "chooseLevel": "Choose level...",
+  "clearOverrides": "Clear Overrides",
+  "confirmPay": "Confirm & Pay",
+  "confirmPayment": "Confirm Payment",
+  "continueBtn": "Continue",
+  "createSchedule": "Create Schedule",
+  "createSubject": "Create Subject",
+  "enterPhoneNumber": "Enter Phone Number",
+  "errorMsg": "Error",
+  "forgotPassword": "Forgot Password?",
+  "generate": "Generate",
+  "info": "Info",
+  "insufficientTeachers": "Insufficient Teachers",
+  "language": "Language",
+  "manualOverridesPlanner": "Manual Overrides Planner",
+  "minutesMustBeBetween1And59": "Minutes must be between 1 and 59!",
+  "noRoomsConfiguredYet": "No rooms configured yet.",
+  "noSubjectsAddedYet": "No subjects added yet.",
+  "noTeachersAssignedYet": "No teachers assigned yet. Use Menu Above to Disable including teachers",
+  "ok": "OK",
+  "confirmQuestion": "Are you sure?",
+  "paymentSuccessful": "Payment Successful!",
+  "pinSlot": "Pin Slot",
+  "pleaseAddRooms": "Please add rooms",
+  "pleaseAddSubjects": "Please add subjects",
+  "pleaseAddTeachers": "Please add teachers OR disable including teachers in payload",
+  "includeTeachersInPayload": "Include real teacher list",
+  "includeTeachersInPayloadHint": "When disabled, the generator sends placeholder teachers to the backend while still allowing schedule creation.",
+  "pleaseSelectAClassFirst": "Please select a class first!",
+  "pleaseSelectAtLeastOneWorkingD": "Please select at least one working day",
+  "scheduleResult": "Schedule Result",
+  "scheduleSkeleton": "Schedule Skeleton",
+  "scheduleDataNotFound": "Schedule data not found.",
+  "send": "Send",
+  "timingConstraints": "Timing Constraints",
+  "tryAnyway": "Try Anyway",
+  "upgradeToPremium": "Upgrade to Premium",
+  "yourPremiumFeaturesHaveBeenUnl": "Your premium features have been unlocked.",
+  "logout": "Logout",
+  "confirmLogoutTitle": "Confirm Logout",
+  "confirmLogoutMessage": "Are you sure you want to log out?",
+  "alreadyHave": "Already have an account?",
+  "confirmPassword": "Confirm Password",
+  "profile": "Profile",
+  "personalInformation": "Personal Information",
+  "firstName": "First Name",
+  "institution": "Institution",
+  "lastName": "Last Name",
+  "phone": "Phone",
+  "resetPasswordTitle": "Reset Password",
+  "resetPasswordDescription": "Enter your email address to receive a link to reset your password.",
+  "emailNotConfirmedError": "Email not confirmed.",
+  "pleaseConfirmEmail": "Please confirm your email",
+  "emailWillBeSentTo": "Email will be sent to : ",
+  "errorPrefix": "Error:",
+  "signInWelcome": "Sign In Welcome",
+  "pleaseEnterEmail": "Please enter an email",
+  "invalidEmail": "Invalid email",
+  "pleaseEnterPassword": "Please enter a password",
+  "shortPassword": "Password must be at least 6 characters",
+  "dontHaveAccount": "Don't have an account?",
+  "pleaseSelectRole": "Please select a role",
+  "welcomesegtotimetable": "Welcome to seg-timetable",
+  "noMorePlaceAnimation": "No More Place For Animation",
+  "emptyFirstName": "emptyFirstName",
+  "emptyLastName": "emptyLastName",
+  "fillAllFields": "fillAllFields",
+  "passwordNotMatch": "passwordNotMatch",
+  "roleDirector": "Director",
+  "roleSupervisor": "Supervisor",
+  "roleTeacher": "Teacher",
+  "roleStudent": "Student",
+  "roleLabel": "role",
+  "signInLabel": "sign_in",
+  "optional": "Optional",
+  "guide": "Guide",
+  "subject": "Subject",
+  "teacher": "Teacher",
+  "teachers": "Teachers",
+  "room": "Room",
+  "rooms": "Rooms",
+  "restricted": "restricted",
+  "consecutive": "consecutive",
+  "levels": "Levels",
+  "subjects": "Subjects",
+  "weeklyHours": "Weekly Hours",
+  "classes": "Classes",
+  "hours": "Hours",
+  "filterTeachersBySubject": "Filter teachers by subject",
+  "@filterTeachersBySubject": {
+    "description": "Compact label above the subject dropdown in the Teacher tab, explaining it filters the teacher list"
+  },
+  "allSubjects": "All subjects",
+  "@allSubjects": {
+    "description": "Default option in the Teacher tab's subject filter dropdown, meaning no subject filter is applied"
+  },
+  "searchForATeacher": "Search for a teacher",
+  "@searchForATeacher": {
+    "description": "Hint text for the teacher search field in the Teacher tab"
+  },
+  "selectATeacherToViewSchedule": "Select a teacher to view their schedule.",
+  "@selectATeacherToViewSchedule": {
+    "description": "Empty-state message shown in the Teacher tab's schedule area before a teacher is selected"
+  },
+  "roomAddedSuccessfully": "\"{name}\" added successfully",
+  "@roomAddedSuccessfully": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "roomRemoved": "\"{name}\" removed",
+  "@roomRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "roomUpdatedSuccessfully": "\"{name}\" updated successfully",
+  "@roomUpdatedSuccessfully": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherAddedSuccessfully": "{name} added successfully",
+  "@teacherAddedSuccessfully": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "teacherRemoved": "{name} removed",
+  "@teacherRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nLevelsSelected": "{count} level(s) selected",
+  "@nLevelsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nSubjectsSelected": "{count} subject(s) selected",
+  "@nSubjectsSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "capacityValue": "Capacity: {value}",
+  "@capacityValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "maxHoursPerWeekValue": "max {value}h/w",
+  "@maxHoursPerWeekValue": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "classesInLevel": "Classes in {level}",
+  "@classesInLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "templatePlannerTitle": "Template Planner: {className}",
+  "@templatePlannerTitle": {
+    "placeholders": {
+      "className": {
+        "type": "String"
+      }
+    }
+  },
+  "pinLessonForClass": "Pin Lesson for {className}",
+  "@pinLessonForClass": {
+    "placeholders": {
+      "className": {
+        "type": "String"
+      }
+    }
+  },
+  "dayAndSlot": "{day}, Slot {slot}",
+  "@dayAndSlot": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "slot": {
+        "type": "int"
+      }
+    }
+  },
+  "slotNumber": "Slot {number}",
+  "@slotNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "nPinned": "{count} pinned",
+  "@nPinned": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sectionBasicInformation": "BASIC INFORMATION",
+  "sectionRestrictionsOptional": "RESTRICTIONS  (OPTIONAL)",
+  "sectionConstraints": "CONSTRAINTS",
+  "cardRoomName": "ROOM NAME",
+  "cardCapacityOptional": "CAPACITY  (OPTIONAL)",
+  "cardAllowedLevels": "ALLOWED LEVELS",
+  "cardAllowedSubjects": "ALLOWED SUBJECTS",
+  "cardUsedOnlyFor": "USED ONLY FOR",
+  "cardTeacherName": "TEACHER NAME",
+  "cardSubject": "SUBJECT",
+  "cardQualifiedLevels": "QUALIFIED LEVELS",
+  "cardMaxHoursWeekOptional": "MAX HOURS / WEEK  (OPTIONAL)",
+  "cardConsecutiveHours": "CONSECUTIVE HOURS",
+  "tooltipRoomName": "A unique name that identifies this room. Can be a number, label, or description.",
+  "tooltipCapacity": "Maximum students this room can hold. Scheduler avoids overcrowding. Default is 40.",
+  "tooltipAllowedLevels": "Leave empty to allow any level. Select specific levels to reserve this room for them.",
+  "tooltipAllowedSubjects": "Leave empty to allow any subject. Select subjects to restrict this room (e.g. a lab for Chemistry only).",
+  "tooltipUsedOnlyFor": "Select a subject to make it mandatory for this room (e.g. a lab for Chemistry only).",
+  "tooltipTeacherName": "Must be unique. Used to identify this teacher across the schedule.",
+  "tooltipTeacherSubject": "Each teacher is assigned to one subject. The scheduler matches teachers to classes using this.",
+  "tooltipQualifiedLevels": "School grades or year groups this teacher is allowed to teach. Select all that apply.",
+  "tooltipMaxHoursWeek": "Prevents assigning more than this number of hours to this teacher in a single week.",
+  "tooltipConsecutiveHours": "When enabled, the scheduler tries to group this teacher's sessions into a continuous block.",
+  "hintEnterRoomName": "Enter room name",
+  "hintCapacity": "e.g. 30",
+  "hintEnterTeacherName": "Enter teacher name",
+  "hintSelectSubject": "Select a subject",
+  "hintMaxHours": "e.g. 20",
+  "capacityDescription": "Maximum number of students. Leave empty to use the default (40).",
+  "allowedLevelsDescription": "Only Selected Levels Allowed. Leave empty to allow any level.",
+  "allowedSubjectsDescription": "Leave empty to allow all subjects. Select subjects to restrict this room.",
+  "usedOnlyForDescription": "Subject forced to use this room only (e.g. a lab for Chemistry only).",
+  "qualifiedLevelsDescription": "Select every level this teacher is qualified to teach.",
+  "maxHoursWeekDescription": "Leave empty for no weekly limit. Useful for part-time teachers.",
+  "requireConsecutiveHours": "Require consecutive hours",
+  "consecutiveHoursDescription": "Teacher's classes will be scheduled back-to-back.",
+  "validationRoomNameRequired": "Room name is required",
+  "validationNameMinTwoChars": "Name must be at least 2 characters",
+  "validationRoomNameAlreadyExists": "A room with this name already exists",
+  "validationMustBeNumberGteOne": "Must be a number ≥ 1",
+  "validationTeacherNameRequired": "Teacher name is required",
+  "validationTeacherNameAlreadyExists": "A teacher with this name already exists",
+  "validationSelectSubjectOrCreate": "Please select a subject or create one",
+  "validationSelectAtLeastOneLevel": "Select at least one level",
+  "validationSelectSubject": "Please select a subject",
+  "validationSelectTeacher": "Please select a teacher",
+  "validationSelectRoom": "Please select a room",
+  "noLevelsDefinedYet": "No levels defined yet.",
+  "noSubjectsDefinedYet": "No subjects defined yet.",
+  "noRoomsAddedYet": "No rooms added yet",
+  "noRoomsAddedYetSubtitle": "Fill the form or use Generate to add rooms",
+  "noTeachersAddedYet": "No teachers added yet",
+  "noTeachersAddedYetSubtitle": "Fill in the form and press Add Teacher",
+  "unknownSubject": "Unknown Subject",
+  "unknownTeacher": "Unknown Teacher",
+  "unknownRoom": "Unknown Room",
+  "roomsAdded": "Rooms Added",
+  "teachersAdded": "Teachers Added",
+  "removeRoom": "Remove room",
+  "removeTeacher": "Remove teacher",
+  "swipeLeftToDeleteRoom": "Swipe left to delete a room",
+  "addRoom": "Add Room",
+  "createNewSubject": "Create new subject",
+  "generateRooms": "Generate Rooms",
+  "generateRoomsDescription": "Quickly add multiple rooms with a numbered name pattern.",
+  "numberOfRooms": "Number of rooms",
+  "numberOfRoomsHint": "e.g. 10",
+  "namePatternLabel": "Name pattern  (# → number)",
+  "namePatternHint": "e.g. Room # → Room 1, Room 2…",
+  "helpSheetRoomsTitle": "Add Rooms — Guide",
+  "helpSheetTeachersTitle": "Add Teacher — Guide",
+  "helpSheetSubtitle": "What to enter in each field",
+  "helpEntryRoomNameTitle": "Room Name",
+  "helpEntryRoomNameBody": "A unique name to identify this room in the schedule.\n\n• At least 2 characters, must be unique\n• Examples: \"Room 101\", \"Science Lab\", \"Computer Room\", \"Library Hall\"",
+  "helpEntryCapacityTitle": "Capacity",
+  "helpEntryCapacityBody": "The maximum number of students this room can hold at once.\n\n• Leave empty to use the default capacity (40 students)\n• The scheduler uses this to prevent overcrowding\n• Example: Enter \"25\" if the lab only has 25 seats",
+  "helpEntryAllowedLevelsTitle": "Allowed Levels",
+  "helpEntryAllowedLevelsBody": "Restrict this room so that only specific school levels can use it.\n\n• Leave all unselected to allow any level\n• Select one or more levels to reserve this room for specific grades\n• Example: A \"Grade 5 Classroom\" reserved only for Grade 5 students",
+  "helpEntryAllowedSubjectsTitle": "Allowed Subjects",
+  "helpEntryAllowedSubjectsBody": "Restrict this room so only specific subjects can be taught in it.\n\n• Leave all unselected to allow any subject\n• Select subjects if the room has special equipment for certain classes\n• Example: A \"Chemistry Lab\" should only be used for Chemistry",
+  "helpEntryGenerateRoomsTitle": "Generate Rooms (Quick Action)",
+  "helpEntryGenerateRoomsBody": "Use the \"Generate\" button in the toolbar to create many rooms at once.\n\n• Enter how many rooms you need\n• Use # as a placeholder for the room number in the name\n• Example: \"Room #\" with count 5 → creates \"Room 1\" through \"Room 5\"\n• Generated rooms use default capacity (40) with no restrictions",
+  "helpEntryDeletingRoomTitle": "Deleting a Room",
+  "helpEntryDeletingRoomBody": "You can remove a room from the list after adding it.\n\n• Swipe left on any room tile to delete it\n• Or hover over the tile and tap the 🗑 icon on the right",
+  "helpEntryTeacherNameTitle": "Teacher Name",
+  "helpEntryTeacherNameBody": "The full name of the teacher to add to the schedule.\n\n• At least 2 characters, must be unique\n• Examples: \"Sarah Ibrahim\", \"Mr. Ahmed\", \"Dr. Leila\"",
+  "helpEntryTeacherSubjectTitle": "Subject",
+  "helpEntryTeacherSubjectBody": "The subject this teacher is qualified to teach.\n\n• Each teacher is linked to exactly one subject\n• The scheduler uses this to assign the right teacher to each class\n• If the subject is missing, tap \"Create new subject\" to add it first",
+  "helpEntryQualifiedLevelsTitle": "Qualified Levels",
+  "helpEntryQualifiedLevelsBody": "The school levels (grades/year groups) this teacher can teach.\n\n• Select at least one level\n• Choose all levels that apply — a teacher can cover multiple levels\n• Example: Select \"Grade 4\" and \"Grade 5\" if the teacher can handle both",
+  "helpEntryMaxHoursTitle": "Max Hours / Week",
+  "helpEntryMaxHoursBody": "The maximum teaching hours this teacher can have in one week.\n\n• Leave empty for no limit\n• Useful for part-time teachers or to avoid overloading staff\n• Example: Enter \"18\" to cap the teacher at 18 hours/week",
+  "helpEntryConsecutiveHoursTitle": "Consecutive Hours",
+  "helpEntryConsecutiveHoursBody": "Controls whether this teacher's classes should be scheduled back-to-back.\n\n• ✅ Checked — Scheduler groups this teacher's lessons in a continuous block\n• ☐ Unchecked — Lessons can be spread freely through the day\n• Useful for teachers who prefer teaching all classes in one session",
+  "createSubjectEmptyHint": "Select a level and press the + button (Ctrl+A/Cmd+A) to add subjects\nif subject is taught to this level increase the weekly hours else leave it at 0\nread documentation for more info",
+  "addSubjectTooltip": "Add Subject (Ctrl+A/Cmd+A)",
+  "levelSelected": "Selected ✓",
+  "levelTapToSelect": "Tap to select",
+  "daySlotHeader": "Day / Slot",
+  "breakTime": "Break Time",
+  "selectLevel": "Select Level",
+  "selectLevelToViewClasses": "Select a level to view classes.",
+  "selectClassToStartPinning": "Select a class from the sidebar to start pinning slots.",
+  "pleaseAddLevelsFirst": "Please add levels first on the main page.",
+  "pleaseCompleteWorkingDaysConfig": "Please complete the working days & timeslots configuration on the first page first.",
+  "templatePlannerSubtitle": "Force specific subjects, teachers, and rooms. Pinned classes are strictly respected by the generator.",
+  "clearedOverridesForClass": "Cleared overrides for this class.",
+  "selectSubjectFirst": "Select a subject first",
+  "noQualifiedTeachersForLevelSubject": "No qualified teachers for this level & subject",
+  "dayMonday": "Monday",
+  "dayTuesday": "Tuesday",
+  "dayWednesday": "Wednesday",
+  "dayThursday": "Thursday",
+  "dayFriday": "Friday",
+  "daySaturday": "Saturday",
+  "daySunday": "Sunday",
+  "whileGeneratingTitle": "Please wait while the schedule is being generated...",
+  "whileGeneratingDescription": "Once the schedule is generated, you will be redirected to the schedule details page.\nThe solver (algorithm) will be running in the server trying all possible combinations to find the OPTIMAL solution. \nA lack of resources will lead to FEASIBLE not OPTIMAL solutions or unfeasible at all.",
+  "whileGeneratingWarning": "If it takes too long, that means the solver is going to fail",
+  "generatingStatusInitializing": "Initializing schedule generation...",
+  "generatingStatusEvaluating": "Evaluating constraints...",
+  "generatingStatusSearching": "Searching for the optimal schedule...",
+  "generatingStatusOptimizing": "Optimizing timetable...",
+  "generatingStatusFinalizing": "Finalizing schedule...",
+  "estimatedTime": "Estimated time: {duration}",
+  "@estimatedTime": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedTimeMinSec": "{minutes} min {seconds} sec",
+  "@estimatedTimeMinSec": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "estimatedTimeSec": "{seconds} sec",
+  "@estimatedTimeSec": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeroTitle": "Build Perfect\nClass Schedules\nin Minutes",
+  "homeHeroSubtitle": "Stop wrestling with spreadsheets. seg-timetable automatically assigns teachers, rooms and time-slots so every class gets the schedule it deserves — conflict-free.",
+  "homeInstitutionNotice": "Mainly created for schools, but can be used by any institution that needs timetables.",
+  "homeCtaButton": "Create Your Schedule",
+  "homeSocialProof": "Free to get started · No account required",
+  "homeWeeklySchedulePreview": "Weekly Schedule Preview",
+  "homeFeaturesTitle": "Everything you need to schedule smarter",
+  "homeFeaturesSubtitle": "Powerful features packed into a clean, intuitive interface.",
+  "homeFeatureInstantGenerationTitle": "Instant Generation",
+  "homeFeatureInstantGenerationDesc": "Our algorithm processes your constraints and produces a complete, conflict-free timetable in seconds.",
+  "homeFeatureTeacherRoomTitle": "Teacher & Room Management",
+  "homeFeatureTeacherRoomDesc": "Add teachers, define subjects and assign rooms. The scheduler respects availability and capacity.",
+  "homeFeatureManualOverridesTitle": "Manual Overrides",
+  "homeFeatureManualOverridesDesc": "Need to pin a specific slot? Use the manual override planner to lock assignments while keeping the rest optimised.",
+  "homeFeatureExportPdfTitle": "Export to PDF",
+  "homeFeatureExportPdfDesc": "Print or share your schedule as a professional PDF with one click — ready for notice boards or staff emails.",
+  "homeHowItWorksChip": "HOW IT WORKS",
+  "homeHowItWorksTitle": "From blank page to published schedule\nin four simple steps",
+  "homeStep1Title": "Set Timing Constraints",
+  "homeStep1Desc": "Choose your working days, define start and end hours, and mark any break periods.",
+  "homeStep2Title": "Add Teachers, Subjects & Rooms",
+  "homeStep2Desc": "Input all the people and resources the scheduler needs to work with.",
+  "homeStep3Title": "Generate",
+  "homeStep3Desc": "Hit generate and watch the algorithm build a perfectly balanced schedule for every class.",
+  "homeStep4Title": "Review & Export",
+  "homeStep4Desc": "Inspect the result, apply any manual overrides, then export a polished PDF.",
+  "homeStartForFree": "Start for free",
+  "homeBottomCtaTitle": "Ready to build your first schedule?",
+  "homeBottomCtaSubtitle": "It only takes a few minutes to configure your school and let the algorithm do the heavy lifting.",
+  "homeBottomCtaButton": "Create Your Schedule Now",
+  "homeCopyright": "Lkout © 2026",
+  "startFreshTitle": "Start Fresh?",
+  "startFreshContent": "This will delete all saved data including teachers, subjects, rooms, and schedule settings. Are you sure?",
+  "deleteAll": "Delete All",
+  "startFresh": "Start Fresh",
+  "lastGenerated": "Last Generated",
+  "selectWorkingDays": "Select Working Days",
+  "pleaseSelectOneDayOrderMatters": "Please select at least one day — ORDER MATTERS:",
+  "workingHoursTitle": "Working Hours  (e.g. 8 = 08:00)",
+  "workingHoursHint": "Enter the first and last hour of the school day.",
+  "startHourRequired": "Start hour is required",
+  "enterWholeNumber": "Enter a whole number",
+  "mustBeBetween1And22": "Must be between 1 and 22",
+  "startHourLabel": "From",
+  "endHourRequired": "End hour is required",
+  "cannotExceed23": "Cannot exceed 23",
+  "mustBeAfterStartHour": "Must be after start hour",
+  "endHourLabel": "To",
+  "timeslotsFormula": "Timeslots = end hour − start hour",
+  "maxHoursPerStudentPerDay": "Max Hours per Student per Day",
+  "maxHoursPerDayHint": "A class cannot be scheduled for more hours than this value in a single day.",
+  "pleaseSelectValidValue": "Please select a valid value (1 or more)",
+  "breakHoursTitle": "Break Hours",
+  "breakHoursHint": "e.g. Lunch 12:00–14:00 → select 12 and 13.",
+  "pleaseSelectStartAndEndHoursFirst": "Please select start and end hours first",
+  "breakHourMustBeAfterStartHour": "Break hour must be after start hour",
+  "breakHourMustBeBeforeEndHour": "Break hour must be before end hour",
+  "breakSlots": "Break slots:",
+  "noBreakHoursSelected": "No break hours selected",
+  "editSpecificDaySlots": "Edit Specific Day Slots",
+  "clickDayToManageSlots": "Click a day to manage its active slots.",
+  "noDaysSelected": "No days selected",
+  "scheduleSummary": "Schedule Summary",
+  "summaryDaysPerWeek": "Days per week",
+  "summaryTimeslotsPerDay": "Timeslots / day",
+  "summaryMaxHoursPerDay": "Max hours / day",
+  "summaryBreakHours": "Break hours",
+  "summarySelectedDays": "Selected days",
+  "nextLabel": "Next",
+  "nextStageTooltip": "Next stage",
+  "startByAddingLevels": "Start by adding levels",
+  "addLevelsInstructions": "First add levels, then subjects, then rooms, then manual overrides",
+  "addLevels": "Add levels",
+  "levelsColumnHeader": "Levels",
+  "addLevel": "Add Level",
+  "removeLevelTooltip": "Remove level",
+  "selectLevelToViewDetailsHeader": "Select a level to view details",
+  "detailsForLevel": "Details for {level}",
+  "@detailsForLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "subjectsTaught": "Subjects Taught",
+  "assignedTeachers": "Assigned Teachers",
+  "availableRooms": "Available Rooms",
+  "manualOverridesSection": "Manual Overrides",
+  "noManualOverridesForLevel": "No manual overrides configured for this level.",
+  "activeOverrideConstraints": "{count} active override constraint(s) pinned for classes in this level.",
+  "@activeOverrideConstraints": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pleaseSelectLevelFromLeft": "Please select a level from the left to view and manage\nits subjects, teachers, and rooms.",
+  "allRoomsForcedNoFreeRooms": "All rooms are forced for specific subjects, leaving no free rooms for the remaining subjects.",
+  "hasNoTeacher": "has no teacher",
+  "needHoursNoQualifiedTeacher": "{level} needs {hours} hours of \"{subject}\" but no teacher is qualified, add teacher to level {level}",
+  "@needHoursNoQualifiedTeacher": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "subject": {
+        "type": "String"
+      },
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "notEnoughTeachersContent": "Not enough teachers for {subject}!\n\n• Required: {required} hours\n• Available capacity: {available} hours\n\nConsider adding ~{needed} more teacher(s).",
+  "@notEnoughTeachersContent": {
+    "placeholders": {
+      "subject": {
+        "type": "String"
+      },
+      "required": {
+        "type": "int"
+      },
+      "available": {
+        "type": "int"
+      },
+      "needed": {
+        "type": "int"
+      }
+    }
+  },
+  "insufficientRoomsTitle": "Insufficient Rooms",
+  "roomCapacityMayBeInsufficient": "Room capacity may be insufficient",
+  "currentRooms": "Current rooms:",
+  "predictedNeeded": "Predicted needed:",
+  "totalClassHoursWeek": "Total class-hours/week:",
+  "ratioPerRoom": "Ratio per room:",
+  "schedulerMayFail": "The scheduler may fail to find a solution. Consider adding more rooms.",
+  "classesCount": "Classes: {count}",
+  "@classesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pdfLockedSlot": "lock",
+  "pdfDocumentName": "My_Document",
+  "settings": "Settings",
+  "print": "Print",
+  "tryAgain": "Try Again",
+  "noScheduleDataGoHome": "No schedule data found. Returning home...",
+  "selectAClass": "Select a class",
+  "selectClassToViewSchedule": "Select a class from the list to view its schedule.",
+  "scheduleGenerationFailed": "Schedule generation failed.",
+  "generalCategory": "General",
+  "noDetailsProvided": "No details provided.",
+  "noFurtherDiagnostics": "No further diagnostics available.",
+  "solutionHint": "Hint: {hint}",
+  "@solutionHint": {
+    "placeholders": {
+      "hint": {
+        "type": "String"
+      }
+    }
+  },
+  "clsCount": "{count} class(es)",
+  "@clsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "saveExit": "Save & Exit",
+  "clickToAddHeaderImage": "Click to add header image",
+  "name": "Name",
+  "close": "Close",
+  "dearUser": "Dear User",
+  "paymentWorkInProgress": "Payment integration is currently in progress. Please contact us directly to complete your purchase.",
+  "paymentIntegrationMessage": "We are currently still working on payment integration.\nWe apologize for the inconvenience. We will be back soon with a better solution. Thank you for your patience.",
+  "contactEmail": "Email: abdoullouahd@gmail.com",
+  "contactPhone": "Phone: +212628503463",
+  "thankYouForUnderstanding": "Thank you for your understanding!",
+  "amountDisplay": "Amount: 299 MAD",
+  "feesDisplay": "Fees: {fees} MAD",
+  "@feesDisplay": {
+    "placeholders": {
+      "fees": {
+        "type": "String"
+      }
+    }
+  },
+  "totalDisplay": "Total: {total} MAD",
+  "@totalDisplay": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "paymentFailed": "Payment failed: {error}",
+  "@paymentFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "unlockFullPotential": "Unlock the Full Potential",
+  "fullAccessDescription": "Get full access to all features and generate unlimited schedules.",
+  "getFullAccess": "Get full access to your schedule without restrictions.",
+  "premiumAccess": "Premium Access",
+  "perEightMonths": "/ 8 months",
+  "featureRemoveLockedSlots": "Remove locked slots",
+  "featureExportPdf": "Export to PDF",
+  "featureAnyDevice": "Access on any device",
+  "featureManualOverrides": "Manual overrides",
+  "featurePrioritySupport": "Priority support",
+  "removeLockedSlots": "Remove all locked slots",
+  "exportPdf": "Export schedule to high-quality PDF",
+  "anyDevice": "Get your schedule on any device",
+  "advancedOverrides": "Advanced manual overrides",
+  "prioritySupport": "Priority customer support",
+  "upgradeNow": "Upgrade Now",
+  "maybeLater": "Maybe Later",
+  "demoLimitTitle": "Demo Limit Reached",
+  "demoLimitContent": "The demo version only supports schedules with fewer than 30 classes. Sign in or upgrade to Premium to generate schedules with 30 or more classes.",
+  "signInOrUpgrade": "Sign In / Upgrade",
+  "welcomesegtotimetable": "Welcome to seg-timetable",
+  "segtimetableDescription": "A modern platform for managing school timetables with simplicity and efficiency.",
+  "featureTimetablesTitle": "School Timetables",
+  "featureTimetablesDesc": "Create and manage school timetables easily.",
+  "featureSecureTitle": "Secure & Reliable",
+  "featureSecureDesc": "Your information is protected and safely stored.",
+  "featureSaveTimeTitle": "Save Time",
+  "featureSaveTimeDesc": "Organize schedules faster with a streamlined workflow.",
+  "featureSimpleTitle": "Simple Experience",
+  "featureSimpleDesc": "An intuitive interface designed for everyone.",
+  "segtimetableQuote": "Organizing timetables, so you can focus on teaching.",
+  "signInSubtitle": "Welcome back! Please sign in to your account.",
+  "signUpSubtitle": "Create your account by filling in the details below.",
+  "requestTimedOut": "The request took too long. Please check your connection and try again.",
+  "unexpectedError": "Something went wrong. Please try again.",
+  "resetPasswordSuccess": "If an account exists for this email, a reset link has been sent.",
+  "warning": "Warning",
+  "eraseSavedScheduleWarning": "Generating a new schedule will erase the saved one.",
+  "impossibleToRecreate": "It's nearly impossible to generate same schedule twice.",
+  "sureToContinue": "Are you sure you want to continue?",
+  "loadLastCreatedSchedule": "Load Last Created Schedule",
+  "pricing": "Pricing",
+  "aboutUs": "About Us",
+  "exitCreator": "Exit Creator",
+  "exitConfirmMessage": "Are you sure you want to exit? Your unsaved changes will be lost.",
+  "exitBtn": "Exit",
+  "hintStartHour": "e.g. 8",
+  "hintEndHour": "e.g. 17",
+  "validationLevelNameRequired": "Level name is required",
+  "validationLevelAlreadyExists": "This level already exists",
+  "validationClassesRequired": "Number of classes is required",
+  "labelLevelName": "Level name",
+  "hintLevelName": "e.g. Primary 1",
+  "labelNumberOfClasses": "Number of classes",
+  "hintNumberOfClasses": "e.g. 3",
+  "validationSubjectNameRequired": "Subject name is required",
+  "validationSubjectAlreadyExists": "Subject already exists",
+  "hintSubjectName": "e.g. Mathematics",
+  "validationNonNegativeNumber": "Enter a non-negative number",
+  "validationCommaSeparatedNumbers": "Enter comma-separated numbers",
+  "subjectColor": "Subject color",
+  "advancedParameters": "Advanced parameters",
+  "minimumRestHours": "Minimum rest hours",
+  "avoidHours": "Avoid hours",
+  "avoidHoursHint": "Optional, e.g. 1, 3, 5",
+  "validationRoomAlreadyExists": "Room already exists",
+  "hintRoomName": "e.g. Room 101",
+  "validationNumberOfRoomsRequired": "Number of rooms is required",
+  "titleUpdateMinutes": "Update Minutes",
+  "labelMinutes": "Minutes",
+  "btnUpdate": "Update",
+  "isNotScheduled": "Is Not Scheduled",
+  "lessThanNClasses": "Less than {count} classes",
+  "@lessThanNClasses": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "approxNStudents": "Approx {count} students",
+  "@approxNStudents": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "contactUsForAgreement": "Contact us to set an agreement",
+  "titleSchoolBasic": "School Basic",
+  "titleSchoolStandard": "School Standard",
+  "titleSchoolPremium": "School Premium",
+  "titleCustomAgreement": "Custom Agreement",
+  "badgePopular": "Popular",
+  "priceAgreement": "Agreement",
+  "featureFlexibleClassCounts": "Flexible class counts",
+  "featureFlexibleStudentCounts": "Flexible student counts",
+  "featureExamCorrection": "Exam correction",
+  "featureAbsenceManagement": "Absence management",
+  "featureLessonsPlanner": "Lessons planner",
+  "btnContactUs": "Contact Us",
+  "licenseError": "License Error",
+  "getALicense": "Get a License",
+  "goHome": "Go Home",
+  "routeNotFound": "Route not found: {uri}",
+  "@routeNotFound": {
+    "placeholders": {
+      "uri": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutHomeTooltip": "Home",
+  "aboutAppBarTitle": "About Seg-Dude",
+  "aboutHeroChip": "OUR STORY",
+  "aboutHeroTitle": "About Seg-Dude",
+  "aboutHeroSubtitle": "Simplifying school management through smart, modern technology.",
+  "aboutScrollToExplore": "Scroll to explore",
+  "aboutWhoWeAreChip": "WHO WE ARE",
+  "aboutWhoWeAreTitle": "Who We Are",
+  "aboutWhoWeAreDescription": "Seg-Dude is a modern school management platform designed to simplify the daily operations of educational institutions. Our goal is to provide an efficient, secure, and user-friendly solution that connects school administrators, teachers, students, and parents through an intuitive digital experience.",
+  "aboutOurMissionTitle": "Our Mission",
+  "aboutOurMissionDescription": "Our mission is to make school management easier by providing practical digital tools that improve organization, simplify scheduling, and support a better educational environment for schools.",
+  "aboutWhatWeOfferChip": "WHAT WE OFFER",
+  "aboutWhatWeOfferTitle": "What We Offer",
+  "aboutFeatureTeacherManagementTitle": "Teacher Management",
+  "aboutFeatureTeacherManagementDesc": "Organize teacher profiles, availability, and workload.",
+  "aboutFeatureClassSchedulingTitle": "Class Scheduling",
+  "aboutFeatureClassSchedulingDesc": "Generate conflict-free schedules in a few clicks.",
+  "aboutFeatureSimpleInterfaceTitle": "Simple & Modern Interface",
+  "aboutFeatureSimpleInterfaceDesc": "A clean experience built for everyday school staff.",
+  "aboutFeatureFastWorkflowTitle": "Fast and Organized Workflow",
+  "aboutFeatureFastWorkflowDesc": "Reduce manual work and keep everything in one place.",
+  "aboutComingSoonChip": "COMING SOON",
+  "aboutWhatsNextTitle": "What's Next",
+  "aboutComingSoonIntro": "Seg-Dude is continuously evolving. Here's a glimpse of what we're building next.",
+  "aboutComingSoonFooter": "Seg-Dude is continuously evolving. We're working on new features that will make school management even smarter and more efficient.",
+  "aboutSoonBadge": "Soon",
+  "aboutComingSoonStudentManagementTitle": "Student Management",
+  "aboutComingSoonStudentManagementDesc": "Full student profiles and records in one place.",
+  "aboutComingSoonAttendanceTitle": "Attendance System",
+  "aboutComingSoonAttendanceDesc": "Track presence and absence with ease.",
+  "aboutComingSoonGradeManagementTitle": "Grade Management",
+  "aboutComingSoonGradeManagementDesc": "Record and analyze student performance.",
+  "aboutComingSoonParentPortalTitle": "Parent Portal",
+  "aboutComingSoonParentPortalDesc": "Keep parents informed and engaged.",
+  "aboutComingSoonNotificationsTitle": "Notifications",
+  "aboutComingSoonNotificationsDesc": "Timely alerts for staff, students, and parents.",
+  "aboutComingSoonAiToolsTitle": "AI-powered Educational Tools",
+  "aboutComingSoonAiToolsDesc": "Smart assistance for everyday school tasks.",
+  "aboutOurVisionTitle": "Our Vision",
+  "aboutOurVisionDescription": "We envision a future where every educational institution can manage its daily activities efficiently through innovative technology that saves time, reduces complexity, and supports academic success.",
+  "aboutOurValuesChip": "OUR VALUES",
+  "aboutOurValuesTitle": "Our Values",
+  "aboutValueInnovationTitle": "Innovation",
+  "aboutValueInnovationDesc": "Bringing modern technology to everyday school needs.",
+  "aboutValueSimplicityTitle": "Simplicity",
+  "aboutValueSimplicityDesc": "Keeping tools intuitive and easy to use.",
+  "aboutValueReliabilityTitle": "Reliability",
+  "aboutValueReliabilityDesc": "Building solutions schools can depend on.",
+  "aboutValueSecurityTitle": "Security",
+  "aboutValueSecurityDesc": "Protecting school and student data at every step.",
+  "aboutStayConnectedChip": "STAY CONNECTED",
+  "aboutConnectWithUsTitle": "Follow Us",
+  "connectWithUsTitle": "Connect With Us",
+  "supportTitle": "Support",
+  "supportSubtitle": "Have questions or need help? Contact us directly.",
+  "emailUs": "Email Us",
+  "sendUsEmailMessage": "Send us email and we will reply as soon as possible",
+  "aboutConnectWithUsSubtitle": "Follow Seg-Dude for tutorials, product updates, announcements, and new educational content.",
+  "aboutYouTubePlatform": "YouTube",
+  "aboutYouTubeActionLabel": "Visit channel",
+  "aboutYouTubeDescription": "Watch tutorials, feature walkthroughs, updates, and future videos.",
+  "aboutInstagramPlatform": "Instagram",
+  "aboutInstagramActionLabel": "Follow us",
+  "aboutInstagramDescription": "Follow us for news, announcements, behind-the-scenes updates, and community content.",
+  "aboutCopyright": "© 2026 Seg-Dude. All rights reserved.",
+  "aboutBackToHome": "Back to Home",
+  "groups": "Groups",
+  "groupsAreAssignedToAClass": "groups are assigned to a class",
+  "groupsSplitClsIntoGroups": "Split Class Into Groups",
+  "groupsSelectClassToSplit": "Please select a class to split, click on the add button.",
+  "groupsAddSubjectFirst": "Please Create subjects first to be able to split Classes",
+  "groupsAdd": "Add Group",
+  "groupsApplyToOthers": "Apply To Other Classes",
+  "groupsApplyToOthersDesc": "Do you want to apply the same constraint to all classes in the same level?",
+  "groupsNotConf": "No Groups configured yet",
+  "groupsMerge": "Merge Classes",
+  "groupsMergeClasses": "Merge classes into one group",
+  "groupsSelectClassesToMerge": "Select at least two classes from this level.",
+  "groupsMergeWarningTitle": "Split groups found",
+  "groupsMergeWarning": "Some selected classes have split groups for this subject. Merging them will remove those split-group constraints. Continue?",
+  "groupsSelectTeacherFirstToMerge": "Select a teacher first",
+  "groupsNoClassesForTeacherSubject": "No eligible classes for this teacher and subject",
+  "groupsClassesSelectedCount": "{count} classes selected",
+  "@groupsClassesSelectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "groupsMergeSummary": "Summary",
+  "groupsMergeSuccessMessage": "Classes merged successfully",
+  "groupsSelectSubjectToMerge": "Choose the subject for this merge",
+  "groupsSelectTeacherToMerge": "Select the teacher responsible for this subject",
+  "groupsNoTeacherAssignedForSubject": "No teacher is assigned for this subject — you can still merge its classes",
+  "groupsNoTeacherAssignedShort": "No teacher assigned",
+  "groupsNoQualifiedTeacherMergeBlocked": "No teacher is qualified for this subject at this level — merging is not available",
+  "deleteSubjectWarning": "Teachers and groups associated with this subjcet will also be deleted.",
+  "number": "Number",
+  "id": "Id",
+  "grouping": "Grouping",
+  "notes": "Notes",
+  "noMatchingRecordsFound": "No matching records found",
+  "supervisor": "Supervisor",
+  "loadFromFile": "Load from file",
+  "noSavedScheduleFound": "No saved schedule found",
+  "clickToCreateNewSchedule": "Click to create a new schedule",
+  "creationOptions": "Options for creating a new schedule",
+  "chooseHowCreate": "Choose how to create a new schedule.",
+  "collapse": "Collapse",
+  "noGaps": "Generate a schedule with no gaps (Student-biased)",
+  "teacherBias": "Generate a schedule with groups of teachers (Teacher-biased)",
+  "studFirst": "Student first",
+  "teacherFirst": "Teacher first",
+  "ifNoneSelected": "(If no class is selected, then all classes)",
+  "ifSubjetMultiTeachers": "If the subject has more than one teacher, the system of periods and groups is applied.",
+  "teachersCoexist": "Teachers of a particular subject may be present in school during the same period.",
+  "licenseWarning": "Data may be incorrect without premium license",
+  "licenseWarningDesc": "Please get a premium license to get correct data.",
+  "schoolSeason": "School Season",
+  "subjRequireRooms": "Subject requires room",
+  "freeResourcesTabTitle": "Free Resources",
+  "freeResourcesForLevel": "Free Resources - Level {level}",
+  "@freeResourcesForLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "freeClassesLabel": "Free Classes",
+  "freeQualifiedTeachersLabel": "Available Teachers",
+  "freeRoomsLabel": "Free Rooms",
+  "noneLabel": "None",
+  "noFreeSlotsThisDay": "No free slots this day",
+  "noFreeSlotsAvailable": "No free slots available",
+  "freeForAllClasses": "All levels free",
+  "freeForLevelClasses": "Whole level free",
+  "freeForSomeClasses": "Some classes free",
+  "levelNumberFallback": "Level {id}",
+  "@levelNumberFallback": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "tapLevelForDetailsHint": "Tap a level to see available teachers & rooms",
+  "@tapLevelForDetailsHint": {
+    "description": "Hint shown near the availability legend and as a tooltip on level chips, indicating the chip can be tapped to view available teachers and rooms."
+  },
+  "forcedSubjectInAllowedRooms": "{subjectName} is forced to a specific room, but it appears in the allowed subjects of {roomName}. Continue will remove it from the allowed subjects of {roomName}.",
+  "@forcedSubjectInAllowedRooms": {
+    "placeholders": {
+      "subjectName": {
+        "type": "String"
+      },
+      "roomName": {
+        "type": "String"
+      }
+    }
+  }
+}
