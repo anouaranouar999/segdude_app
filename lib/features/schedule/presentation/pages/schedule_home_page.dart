@@ -183,12 +183,7 @@ class _HeroSection extends ConsumerWidget {
                 // ── User Sign in or Profile Menu (Refreshes on Auth changes) ──
                 user == null
                     ? TextButton(
-                        onPressed: () {
-                          NavigationGuard.run(
-                            context,
-                            () => context.go('/login?from=/'),
-                          );
-                        },
+                        onPressed: () => context.go('/login?from=/'),
                         child: Text(
                           l10n?.signIn ?? 'Sign in',
                           style: const TextStyle(
@@ -1353,10 +1348,7 @@ class _Footer extends ConsumerWidget {
                 _FooterLink(
                   // ----------------------- if user is logged in -----------------------
                   label: l10n.signIn,
-                  onTap: () => NavigationGuard.run(
-                    context,
-                    () => context.go('/login?from=/'),
-                  ),
+                  onTap: () => context.go('/login?from=/'),
                 ),
             ],
           ),
