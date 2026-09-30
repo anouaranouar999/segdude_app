@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/providers/groups_provider.dart';
 import 'package:segdude_app/core/storage/shared_preferences_service.dart';
 import 'package:segdude_app/shared/widgets/navigation_guard.dart';
-import 'package:segdude_app/features/auth/presentation/providers/auth_provider.dart';
+import 'package:segdude_app/features/auth/providers/auth_provider.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/sub_pages/while_generating.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/widgets/add_dialogs.dart';
 import 'package:segdude_app/l10n/app_localizations.dart';
@@ -236,9 +236,7 @@ class _ScheduleCreatePageState extends ConsumerState<ScheduleCreatePage> {
                 ),
               ),
               PopupMenuItem(
-                child: user == null
-                    ? Text(l10n.login)
-                    : Text(l10n.logout),
+                child: user == null ? Text(l10n.login) : Text(l10n.logout),
                 onTap: () async {
                   if (user == null) {
                     context.push('/login?from=/create/schedule_second_page');

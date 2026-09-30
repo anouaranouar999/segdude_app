@@ -6,7 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:segdude_app/features/auth/presentation/widgets/auth_branding_panel.dart';
 import 'package:segdude_app/features/auth/presentation/widgets/auth_page_background.dart';
 import 'package:segdude_app/features/auth/presentation/widgets/auth_text_field.dart';
-import 'package:segdude_app/features/auth/presentation/providers/auth_provider.dart';
+import 'package:segdude_app/features/auth/providers/auth_provider.dart';
 import 'package:segdude_app/l10n/app_localizations.dart';
 
 class SignUpPage extends ConsumerStatefulWidget {

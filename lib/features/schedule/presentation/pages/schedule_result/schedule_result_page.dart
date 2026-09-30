@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:segdude_app/core/storage/shared_preferences_service.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/providers/schedule_serialization.dart';
-import 'package:segdude_app/features/auth/presentation/providers/auth_provider.dart';
+import 'package:segdude_app/features/auth/providers/auth_provider.dart';
 import 'package:segdude_app/features/schedule/domain/models_decoder.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/providers/levels_provider.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/providers/rooms_provider.dart';
@@ -73,7 +73,7 @@ class _ScheduleResultPageState extends ConsumerState<ScheduleResultPage> {
       );
     }
     final scheduleValue = scheduleData;
-        return DefaultTabController(
+    return DefaultTabController(
       length: 4,
       child: Scaffold(
         backgroundColor: _pageBg,

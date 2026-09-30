@@ -18,6 +18,7 @@ import 'package:segdude_app/features/schedule/presentation/pages/schedule_result
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_result/schedule_result_page.dart';
 import 'package:segdude_app/features/payment/presentation/buy_page.dart';
 import 'package:segdude_app/features/auth/presentation/sign_in_page.dart';
+import 'package:segdude_app/features/profile/presentation/profile_page.dart';
 import 'package:segdude_app/l10n/app_localizations.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -106,6 +107,12 @@ class AppRouter {
         path: '/pricing',
         name: 'pricing',
         builder: (context, state) => const BuyPage(),
+      ),
+      // ── Profile (protected by the redirect guard above) ───────────────────
+      GoRoute(
+        path: '/profile',
+        name: 'profile',
+        builder: (context, state) => const ProfilePage(),
       ),
       // ── Schedule Creation Flow (starts at /create) ────────────────────────
       GoRoute(

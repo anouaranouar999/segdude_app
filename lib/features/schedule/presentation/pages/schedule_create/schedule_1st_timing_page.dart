@@ -7,7 +7,7 @@ import 'package:segdude_app/shared/widgets/cta_button.dart';
 import 'package:segdude_app/shared/widgets/navigation_guard.dart';
 import 'package:segdude_app/features/schedule/data/load_saved_data.dart';
 import 'package:segdude_app/core/storage/shared_preferences_service.dart';
-import 'package:segdude_app/features/auth/presentation/providers/auth_provider.dart';
+import 'package:segdude_app/features/auth/providers/auth_provider.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/widgets/days_portaloverlay.dart';
 import 'package:segdude_app/l10n/app_localizations.dart';
 import 'package:segdude_app/shared/widgets/app_confirmation_dialog.dart';
