@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:segdude_app/features/schedule/data/load_saved_data.dart';
-import 'package:segdude_app/core/providers/locale_provider.dart';
-import 'package:segdude_app/core/providers/shared_prefs_provider.dart';
-import 'package:segdude_app/core/storage/shared_preferences_service.dart';
-import 'package:segdude_app/features/auth/providers/auth_provider.dart';
-import 'package:segdude_app/l10n/app_localizations.dart';
-import 'package:segdude_app/shared/widgets/app_confirmation_dialog.dart';
-import 'package:segdude_app/shared/widgets/navigation_guard.dart';
+import '../../schedule/data/load_saved_data.dart';
+import '/core/providers/locale_provider.dart';
+import '/core/providers/shared_prefs_provider.dart';
+import '/core/storage/shared_preferences_service.dart';
+import '/features/auth/providers/auth_provider.dart';
+import '/l10n/app_localizations.dart';
+import '/shared/widgets/app_confirmation_dialog.dart';
+import '/shared/widgets/navigation_guard.dart';
 
 // ── UI Tokens ────────────────────────────────────────────────────────────────
 const _pageBg = Color(0xFFF4F7FB);
@@ -183,7 +183,12 @@ class _HeroSection extends ConsumerWidget {
                 // ── User Sign in or Profile Menu (Refreshes on Auth changes) ──
                 user == null
                     ? TextButton(
-                        onPressed: () => context.go('/login?from=/'),
+                        onPressed: () {
+                          NavigationGuard.run(
+                            context,
+                            () => context.go('/login?from=/'),
+                          );
+                        },
                         child: Text(
                           l10n?.signIn ?? 'Sign in',
                           style: const TextStyle(
@@ -1348,7 +1353,10 @@ class _Footer extends ConsumerWidget {
                 _FooterLink(
                   // ----------------------- if user is logged in -----------------------
                   label: l10n.signIn,
-                  onTap: () => context.go('/login?from=/'),
+                  onTap: () => NavigationGuard.run(
+                    context,
+                    () => context.go('/login?from=/'),
+                  ),
                 ),
             ],
           ),

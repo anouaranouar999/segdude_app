@@ -4,7 +4,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/sub_pages/groups.dart';
 import 'package:segdude_app/features/auth/presentation/reset_password.dart';
-import 'package:segdude_app/features/schedule/presentation/pages/schedule_home_page.dart';
+import 'package:segdude_app/features/home/presentation/home_page.dart';
+import 'package:segdude_app/features/about/presentation/about_us_page.dart';
 import 'package:segdude_app/features/schedule/presentation/pages/schedule_create/providers/schedule_result_provider.dart';
 import 'package:segdude_app/features/auth/presentation/sign_up_page.dart';
 import 'package:segdude_app/features/schedule/domain/models_decoder.dart';
@@ -107,6 +108,11 @@ class AppRouter {
         path: '/pricing',
         name: 'pricing',
         builder: (context, state) => const BuyPage(),
+      ),
+      GoRoute(
+        path: '/about',
+        name: 'about',
+        builder: (context, state) => const AboutUsPage(),
       ),
       // ── Profile (protected by the redirect guard above) ───────────────────
       GoRoute(
